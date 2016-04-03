@@ -22,7 +22,7 @@ from sopel.config.types import (
 
 class tellSection(StaticSection):
     private_tells = ValidatedAttribute('private_tells', bool, default=False)
-    """Auto re-join on kick"""
+    """Deliver tells via private message"""
     maximum_tells_in_channel = ValidatedAttribute('maximum amount of tells in channel', int, default=4)
 
 
